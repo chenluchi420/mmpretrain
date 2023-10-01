@@ -1,0 +1,5 @@
+Train:python tools/train.py ${CONFIG_FILE} [ARGS]
+- resnet101: python tools/train.py /home/chenzy/mmpretrain/sea_trash/resnet101_8xb16_sea_trash.py --auto-scale-lr
+- effiecent_net_v2: python tools/train.py efficientnetv2-b0_sea_trash.py --auto-scale-lr
+- swin Trans V2: python tools/train.py swinv2-base-w8_sea_trash.py --auto-scale-lr
+- davit-small: python tools/train.py tiny_8xb16_sea_trash.py --auto-scale-lr
